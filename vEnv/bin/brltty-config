@@ -1,0 +1,47 @@
+#!/bin/sh
+# Programs/brltty-config.  Generated from brltty-config.in by configure.
+###############################################################################
+# BRLTTY - A background process providing access to the console screen (when in
+#          text mode) for a blind person using a refreshable braille display.
+#
+# Copyright (C) 1995-2013 by The BRLTTY Developers.
+#
+# BRLTTY comes with ABSOLUTELY NO WARRANTY.
+#
+# This is free software, placed under the terms of the
+# GNU General Public License, as published by the Free Software
+# Foundation; either version 2 of the License, or (at your option) any
+# later version. Please see the file LICENSE-GPL for details.
+#
+# Web Page: http://mielke.cc/brltty/
+#
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+###############################################################################
+
+prefix="/usr"
+exec_prefix="/usr"
+datarootdir="${prefix}/share"
+bindir="/usr/bin"
+sbindir="/usr/sbin"
+libexecdir="/usr/libexec"
+datadir="/usr/share"
+sysconfdir="/etc"
+sharedstatedir="/var/lib"
+localstatedir="/var"
+libdir="/usr/lib64"
+includedir="/usr/include"
+oldincludedir="/usr/include"
+infodir="/usr/share/info"
+mandir="/usr/share/man"
+
+BRLTTY_VERSION="4.5"
+BRLTTY_EXECUTE_ROOT=""
+BRLTTY_PROGRAM_DIRECTORY="/usr/bin"
+BRLTTY_DRIVERS_DIRECTORY="/usr/lib64/brltty"
+BRLTTY_TABLES_DIRECTORY="/etc/brltty"
+BRLTTY_MANPAGE_DIRECTORY="/usr/share/man"
+BRLTTY_INCLUDE_DIRECTORY="/usr/include/brltty"
+
+BRLAPI_VERSION="0.6"
+BRLAPI_RELEASE="0.6.0"
+BRLAPI_AUTH="brlapi.key"

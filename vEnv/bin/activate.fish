@@ -36,7 +36,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/yammonraheem/PycharmProjects/Concur/GitHub/bds_api/vEnv"
+set -gx VIRTUAL_ENV "/home/yammonraheem/dev/GitHub/bds_api/vEnv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
